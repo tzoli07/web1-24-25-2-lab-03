@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+
+    <style>
+        h1{
+            color: red;
+        }
+
+        .user-card{
+            background-color: lightblue;
+            width: 180px;
+            height: 180px;
+            display: inline-block;
+            margin: 5px;
+            border: solid 1px;
+            box-sizing: border-box;
+        }
+
+        .user-card.active {
+            background-color: lightsalmon !important;
+        }
+
+        .user-card h2{
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        *{
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Alapok</h1>
+
+    <p style="color: #555;">A mai napon a CSS alapkait ismerjük meg</p>
+
+    <div class="user-card">
+        <h2>Elon Musk</h2>
+        <p>City: LA</p>
+    </div>
+
+    <div class="user-card active">
+        <h2>Donald Trump</h2>
+        <p>City: Washington</p>
+    </div>
+
+    <div class="user-card">
+        <h2>Bill Gates</h2>
+        <p>City: Seattle</p>
+    </div>
+
+    <h2>Finish</h2>
+</body>
+</html>
