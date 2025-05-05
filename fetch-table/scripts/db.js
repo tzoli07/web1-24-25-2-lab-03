@@ -1,4 +1,4 @@
-const apiUrl = 'https://nettuts.hu/jms/tzoli07/';
+const apiUrl = 'https://nettuts.hu/jms/cherrApp/';
 
 export const getAll = (entity = 'product') => {
     return fetch(`${apiUrl}${entity}`)
